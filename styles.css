@@ -1,0 +1,24 @@
+.pokemons-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+.pokemon {
+  width: 250px;
+  margin-bottom: 30px;
+}
+.pokemon-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #ddd;
+}
+.pokemon-name {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
